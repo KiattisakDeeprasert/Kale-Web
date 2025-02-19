@@ -1,13 +1,13 @@
 "use client";
 
-import Navbar from "@/components/navbar";
+
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import StepBox from "@/components/StepBox";
 import { Upload, Search, CheckCircle, Lightbulb, Soup, FileUp, Check, ChartArea } from "lucide-react";
 import Button from "@/components/Button";
-import {GlareCard} from "@/components/glare-card"
+
 
 const Homepage = () => {
   return (
