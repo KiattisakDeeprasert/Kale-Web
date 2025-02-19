@@ -9,7 +9,7 @@ export default function App() {
         <div key={variant} className="flex w-full flex-wrap md:flex-nowrap mb-6 md:mb-0 gap-4">
 
           <Input
-            label="Weight loss"
+            label="Weight"
             type="text"
             variant={variant}
             className="text-white !border-b-2 !border-stroke2 focus:!ring-0 focus:!border-stroke2"

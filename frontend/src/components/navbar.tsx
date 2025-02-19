@@ -19,6 +19,7 @@ export default function Navbar() {
                 <div className="hidden md:flex space-x-6">
                     <Link href="/" className="hover:text-gray-300 font-epilogue font-medium ">Home</Link>
                     <Link href="/learn" className="hover:text-gray-300 font-epilogue font-medium ">Learn</Link>
+                    <Link href="/history" className="hover:text-gray-300 font-epilogue font-medium ">History</Link>
                     <Link href="/apidocs" className="hover:text-gray-300 font-epilogue font-medium">API Docs</Link>
                 </div>
 

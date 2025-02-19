@@ -60,6 +60,14 @@ export default function AppBar() {
         <NavbarItem>
           <Link
             className="text-gray hover:text-blue-700 transition-colors"
+            href="/history"
+          >
+           History
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link
+            className="text-gray hover:text-blue-700 transition-colors"
             href="/docs"
           >
             API Docs
