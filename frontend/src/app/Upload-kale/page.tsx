@@ -2,7 +2,6 @@
 
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
-import SubmitButton from "@/components/SubmitButton";
 import ProgressLoader from "@/components/ProgressLoader";
 import Input from "@/components/input";
 import Button from "@/components/Button";
