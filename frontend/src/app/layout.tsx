@@ -25,15 +25,13 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
       <body>
-        <ClientWrapper>
-          {/* Navbar Component */}
-          <AppBar />
+        {/* Navbar Component */}
+        <AppBar />
 
-          {/* Main Page Content */}
-          <section className="bg-bgGreen1 min-h-screen">
-            {children}
-          </section>
-        </ClientWrapper>
+        {/* Main Page Content */}
+        <section className="bg-bgGreen1 min-h-screen">
+      {children}
+    </section>
       </body>
     </html>
   );
