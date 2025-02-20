@@ -17,7 +17,7 @@ const ProgressLoader: React.FC<ProgressLoaderProps> = ({ isUploading, progress, 
           color="success"
           showValueLabel={true}
           size="md"
-          value={progress} // Use real progress here
+          value={progress} 
         />
       )}
     </div>
