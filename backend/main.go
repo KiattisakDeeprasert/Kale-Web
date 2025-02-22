@@ -201,7 +201,7 @@ func uploadHandler(w http.ResponseWriter, r *http.Request) {
 	})
 }
 
-// ดูประวัติการอัปโหลด
+
 func historyHandler(w http.ResponseWriter, r *http.Request) {
 	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 	defer cancel()
@@ -223,7 +223,7 @@ func historyHandler(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(histories)
 }
 
-// ลงทะเบียน
+
 func registerHandler(w http.ResponseWriter, r *http.Request) {
 	var user User
 	err := json.NewDecoder(r.Body).Decode(&user)
@@ -263,7 +263,7 @@ func registerHandler(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(map[string]string{"message": "User registered successfully"})
 }
 
-// Login
+
 func loginHandler(w http.ResponseWriter, r *http.Request) {
 	var loginReq User
 	err := json.NewDecoder(r.Body).Decode(&loginReq)
